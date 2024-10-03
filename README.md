@@ -30,7 +30,7 @@ Para correr este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/skin-maker.git
+   git clone https://github.com/GonzalAgusD/ReactFinal-dougan
 
 
 .Estructura:
