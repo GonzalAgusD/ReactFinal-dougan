@@ -1,16 +1,16 @@
 import { useCart } from '../../context/CartContext';
-import { useNavigate } from 'react-router-dom';  // Importa el hook useNavigate
+import { useNavigate } from 'react-router-dom';  
 import styles from './Cart.module.css'; 
 
 export function Cart() {
   const { cart, addToCart, removeFromCart, clearCart } = useCart(); 
-  const navigate = useNavigate(); // Inicializa useNavigate
+  const navigate = useNavigate(); 
 
   const totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   const handlePurchase = () => {
     alert('¡Gracias por su compra!');
-    clearCart(); // Limpiar el carrito después de la compra
+    clearCart(); 
   };
 
   return (
@@ -50,10 +50,10 @@ export function Cart() {
             Finalizar Compra
           </button>
 
-          {/* Botón para volver al inicio */}
+          
           <button 
             className={styles['back-button']} 
-            onClick={() => navigate('/')}  // Redirige al inicio
+            onClick={() => navigate('/')}  
           >
             Volver al Inicio
           </button>

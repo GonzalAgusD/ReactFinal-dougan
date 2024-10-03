@@ -15,7 +15,7 @@
     padding: 0.5rem 1rem;
     background-color: #14111c;
     border-bottom: 1px solid var(--lighter-color);
-    z-index: 1000; /* Añade un z-index alto si otros elementos están superpuestos */
+    z-index: 1000; 
 }
 
 .navbarLogo {

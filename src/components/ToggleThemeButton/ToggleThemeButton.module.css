@@ -4,13 +4,13 @@
     color: black;
   }
   
-  /* Estilo para el modo nocturno */
+  
   .dark-mode {
     background-color: #ff0000;
     color: white;
   }
   
-  /* Estilos para el botón */
+  
   button {
     padding: 10px 20px;
     margin: 10px;

@@ -12,7 +12,7 @@ import { CartProvider } from './context/CartContext';
 export function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Cambia la clase del body cuando el tema cambia
+
   useEffect(() => {
     document.body.className = isDarkMode ? 'dark-mode' : 'light-mode';
   }, [isDarkMode]);

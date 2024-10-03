@@ -1,14 +1,14 @@
 import { createContext, useContext, useState } from 'react';
 
-// Crear el contexto del carrito
+
 export const CartContext = createContext();
 
-// Hook personalizado para usar el contexto del carrito
+
 export const useCart = () => {
   return useContext(CartContext);
 };
 
-// Componente proveedor del carrito
+
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
@@ -38,7 +38,7 @@ export const CartProvider = ({ children }) => {
     });
   };
 
-  // Función para vaciar el carrito
+ 
   const clearCart = () => {
     setCart([]);
   };
